@@ -3,177 +3,250 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Business Webpage</title>
-    <style>
-        .portfolio-img {
-            width: 250px;
-            height: 150px;
-            object-fit: cover;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <h1>My Business Webpage</h1>
-            <ul>
-                <li><a href="#who-we-are">Who We Are?</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1 class="title">My Business Webpage</h1>
+        <div class="image-container"><img src="../img/header.jpg" id="headerimg" alt="Header image"></div>
+        <ul id="main-nav">
+            <li><a href="#who-we-are">Who We Are?</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#email-us">Email Us</a></li>
+        </ul>
     </header>
     <main>
+        <!-- WHO WE ARE SECTION -->
         <section id="who-we-are">
             <h2>Who We Are?</h2>
-            <article>
-                <h3>Lorem ipsum</h3>
-                <img src="img/1.jpg" alt="Fireworks">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo. Sed id felis finibus, rutrum eros vel, efficitur eros. In
-                    hac
-                    habitasse platea dictumst. Suspendisse potenti. Maecenas in aliquam lorem. Pellentesque habitant
-                    morbi
-                    tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis</p>
-            </article>
-            <article>
-                <h3>Lorem ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo. Sed id felis finibus, rutrum eros vel, efficitur eros. In
-                    hac
-                    habitasse platea dictumst. Suspendisse potenti. Maecenas in aliquam lorem. Pellentesque habitant
-                    morbi
-                    tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis</p>
-            </article>
-            <article>
-                <h3>Lorem ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo. Sed id felis finibus, rutrum eros vel, efficitur eros. In
-                    hac
-                    habitasse platea dictumst. Suspendisse potenti. Maecenas in aliquam lorem. Pellentesque habitant
-                    morbi
-                    tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis</p>
-            </article>
-            <aside>Buy Cheap Beer here <a href="https://www.oktoberfestticketsmunich.com/" target="_blank">here</a>
-            </aside>
+            <p id="subtitle-who-we-are">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Nesciunt
+                distinctio reprehenderit sit</p>
+            <div class="content-wrapper">
+                <div class="left-column">
+                    <h3>Lorem ipsum</h3>
+                    <article>
+                        <img src="../img/1.jpg" alt="Fireworks" class="float-left">
+                        <p class="left-column-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quis,
+                            eaque adipisci id
+                            repellendus ullam omnis provident molestiae aliquam ab soluta corporis asperiores officiis
+                            quo quod eligendi recusandae magnam unde.
+                            Beatae exercitationem possimus debitis ullam, illum aut voluptas saepe sint adipisci hic
+                            maiores fugiat animi? Dicta fugiat iusto totam est. Aut nihil velit laborum facere explicabo
+                            numquam esse? Ullam, omnis.
+                            Aliquid ab deserunt repellendus ullam minus optio nam voluptatibus esse reprehenderit culpa
+                            ipsa illum ipsam earum ad dolor, modi quaerat quo delectus consequuntur soluta, dolores in
+                            ea quia est. Repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aspernatur natus dolor illum amet eaque. Numquam, qui a alias consequuntur quaerat optio
+                            dolore incidunt aspernatur, nulla vel ducimus consectetur autem in. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Aspernatur natus dolor illum amet eaque. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Aspernatur natus dolor illum amet eaque. Lorem
+                            ipsum
+                            dolor sit amet consectetur adipisicing elit. Aspernatur natus dolor illum amet eaque.</p>
+                    </article>
+                </div>
+                <div class="divider"></div>
+                <div class="right-column">
+                    <article>
+                        <h3>Lorem ipsum</h3>
+                        <p class="right-column-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                            dolor facilis, ipsam beatae
+                            nulla corporis fugiat odio accusantium optio nisi magnam? Sunt ex architecto harum natus ad,
+                            molestias nam. Quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aspernatur, eius modi harum accusamus dignissimos quasi ducimus, natus soluta similique
+                            consequatur deserunt, itaque saepe quo.</p>
+                    </article>
+                    <a id="beerAd" href="https://www.oktoberfestticketsmunich.com/" target="_blank">
+                        <img src="../img/ad.png" alt="Image ad to buy beer">
+                    </a>
+                    <article>
+                        <h3>Lorem ipsum</h3>
+                        <p class="right-column-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus, aliquid quia facilis
+                            eos assumenda ratione est tempora iusto? Veritatis quae blanditiis aliquam tenetur est dolor
+                            officia voluptatem impedit provident nesciunt! Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Sed omnis eius minus quae, cumque quibusdam eaque quis et iste nam!</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <hr>
-
+        <!-- SERVICES SECTION -->
         <section id="services">
             <h2>Our Services</h2>
-            <article>
-                <h3>Service 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo.</p>
-            </article>
-            <article>
-                <h3>Service 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo.</p>
-            </article>
-            <article>
-                <h3>Service 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo.</p>
-            </article>
-            <article>
-                <h3>Service 4</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo.</p>
-            </article>
-            <article>
-                <h3>Service 5</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo.</p>
-            </article>
-            <article>
-                <h3>Service 6</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin eget
-                    nulla
-                    sit amet est molestie auctor et at justo.</p>
-            </article>
+            <div id="services-block">
+                <article>
+                    <div class="service-icon">
+                        <i class="fas fa-cloud fa-2x"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Service 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin
+                            eget
+                            nulla
+                            sit amet est molestie auctor et at justo.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code fa-2x"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Service 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin
+                            eget
+                            nulla
+                            sit amet est molestie auctor et at justo.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="service-icon">
+                        <i class="fa-solid fa-rss fa-2x"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Service 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin
+                            eget
+                            nulla
+                            sit amet est molestie auctor et at justo.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="service-icon">
+                        <i class="fa-solid fa-earth-americas fa-2x"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Service 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin
+                            eget
+                            nulla
+                            sit amet est molestie auctor et at justo.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="service-icon">
+                        <i class="fa-solid fa-flag fa-2x"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Service 5</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin
+                            eget
+                            nulla
+                            sit amet est molestie auctor et at justo.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="service-icon">
+                        <i class="fa-solid fa-gear fa-2x"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Service 6</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin
+                            eget
+                            nulla
+                            sit amet est molestie auctor et at justo.</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
+        <!-- PORTFOLIO SECTION -->
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <p><strong>There are success projects created by us</strong></p>
-            <img src="img/1.jpg" alt="Fireworks" class="portfolio-img">
-            <img src="img/2.jpg" alt="A robot walking alone" class="portfolio-img">
-            <img src="img/3.jpg" alt="A mug of coffee" class="portfolio-img">
-            <img src="img/4.jpg" alt="Lights" class="portfolio-img">
-            <img src="img/5.jpg" alt="Reading in the toilet" class="portfolio-img">
-            <img src="img/6.jpg" alt="Sitting down" class="portfolio-img">
-            <img src="img/7.jpg" alt="Eating nuts" class="portfolio-img">
-            <img src="img/8.jpg" alt="Going to sleep" class="portfolio-img">
-            <img src="img/9.jpg" alt="Eating cookies" class="portfolio-img">
-            <img src="img/10.jpg" alt="Cleaning the house" class="portfolio-img">
+            <p>There are success projects created by us</p>
+            <img src="../img/2.jpg" alt="A robot walking alone" class="portfolio-img" id="img2">
+            <img src="../img/3.jpg" alt="A mug of coffee" class="portfolio-img" id="img3">
+            <img src="../img/4.jpg" alt="Lights" class="portfolio-img" id="img4"><br>
+            <img src="../img/5.jpg" alt="Reading in the toilet" class="portfolio-img" id="img5">
+            <img src="../img/6.jpg" alt="Sitting down" class="portfolio-img" id="img6">
+            <img src="../img/7.jpg" alt="Eating nuts" class="portfolio-img" id="img7"><br>
+            <img src="../img/8.jpg" alt="Going to sleep" class="portfolio-img" id="img8">
+            <img src="../img/9.jpg" alt="Eating cookies" class="portfolio-img" id="img9">
+            <img src="../img/10.jpg" alt="Cleaning the house" class="portfolio-img" id="img10">
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p><strong>You can find us:</strong></p>
-            <img src="img/pirateMap.jpeg" alt="Pirate Map" width="250">
+        <!-- LOCATION SECTION -->
+        <section id="location">
+            <h2>Location</h2>
+            <p class="youcanfindus">You can find us</p>
 
-            <address>
-                <p><strong>Head Office</strong></p>
-                <p><i>12356 Blank Street</i></p>
-                <p>Phone:<a href="tel:932902474">932 90 24 74</a></p>
-                <p>Email Address:<a href="mailto:info@salleurl.edu">info@salleurl.edu</a></p>
+            <address class="address">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.411446917107!2d2.168598888806052!3d41.38687019282498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f1602b4819%3A0x1eecc2af1c60d64b!2sPla%C3%A7a%20de%20Catalunya!5e0!3m2!1ses!2ses!4v1710616321490!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+                <div class="addresstexto">
+                    <p class="tituloaddress">Head Office</p>
+                    <p><i>12356 Blank Street</i><br>
+                        Phone:<a href="tel:932902474">932 90 24 74</a><br>
+                        Email Address:<br><a href="mailto:info@salleurl.edu">info@salleurl.edu</a></p>
+
+                    <p class="tituloaddress">Emea</p>
+                    <p><i>Carrer de Sant Joan de la<br>
+                            Salle, 42</i><br>
+                        <i>08022 Barcellna</i><br>
+                        Phone:<a href="tel:932902474">932 90 24 74</a><br>
+                        Email Address:<br>
+                        <a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
+                    </p>
+                </div>
+
             </address>
-
-            <address>
-                <p><strong>Emea</strong></p>
-                <p><i>Carrer de Sant Joan de la Salle, 42</i></p>
-                <p><i>08022 Barcellna</i></p>
-                <p>Phone:<a href="tel:932902474">932 90 24 74</a></p>
-                <p>Email Address:<a href="mailto:info@salleurl.edu">info@salleurl.edu</a></p>
-            </address>
-
         </section>
 
-        <section>
-            <h2>Email Us</h2>
+        <!-- EMAIL SECTION -->
+        <section id="emailus">
 
-            <form action="/contact" method="post">
+            <div class="formcontainer">
 
-                <label for="name">Name*:</label>
-                <input type="text" name="name" id="name" required><br><br>
+                <h2 id="tituloemailus">Email Us</h2>
 
-                <label for="mail">Email*:</label>
-                <input type="email" name="mail" id="mail" required><br><br>
+                <form action="/contact" method="post" class="form">
 
-                <label for="phone">Phone:</label>
-                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br><br>
+                    <div class="divformcontainer">
+                        <label for="name">Name:*</label>
+                        <input type="text" name="name" id="name" class="inputform" required><br>
+                    </div>
 
-                <label for="companyname">Company Name:</label>
-                <input type="text" name="companyname" id="companyname"><br><br>
+                    <div class="divformcontainer">
+                        <label for="mail">Email:*</label>
+                        <input type="email" name="mail" id="mail" class="inputform" required><br>
+                    </div>
 
-                <label for="subject">Subject*:</label>
-                <input type="text" name="subject" id="subject" required><br><br>
+                    <div class="divformcontainer">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" class="inputform"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br>
+                    </div>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" cols="33"></textarea><br><br>
+                    <div class="divformcontainer">
+                        <label for="subject">Subject:*</label>
+                        <input type="text" name="subject" id="subject" class="inputform" required><br>
+                    </div>
 
-                <button>Send</button>
-            </form>
+                    <div class="divformcontainer">
+                        <label for="message">Message:*</label>
+                        <textarea id="message" name="message" class="inputform" rows="2" cols="19"></textarea><br>
+                    </div>
+                    <button type="submit" class="sendbtn">Send</button>
+
+                </form>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2016 - <a href="url">LaSalle.</a> Todos los derechos reservados.</p>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <p>&copy; 2016 - <a href="https://www.lasalle.edu/" target="_blank">LaSalle.</a> Todos los derechos reservados.
+        </p>
     </footer>
+    </main>
 </body>
 
 </html>
