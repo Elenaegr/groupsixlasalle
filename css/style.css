@@ -35,26 +35,16 @@ h3 {
   margin: 20px 0 20px 0;
 }
 
-header {
-  margin: 0;
-  position: relative;
-  height: 300px;
-}
-
 main {
   margin-top: 48px;
 }
 
-#who-we-are {
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* START MAIN NAVIGATION */
 
-#subtitle-who-we-are {
-  text-align: center;
-  margin-bottom: 25px;
+header {
+  margin: 0;
+  position: relative;
+  height: 300px;
 }
 
 #main-nav a {
@@ -69,129 +59,6 @@ main {
   color: #5c4888;
 }
 
-#services-block {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-
-#services-block article {
-  width: 30%; /* Adjust width to fit three articles in a row */
-  margin-bottom: 60px;
-  text-align: justify;
-  display: flex;
-}
-
-#services-block i {
-  color: rgb(92, 72, 136);
-}
-
-#services-block h3 {
-  margin: 0px 0px 20px 0px;
-}
-
-.service-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 4px solid #d3d3d3;
-  flex: 0 0 auto;
-  margin-right: 10px;
-  transition: background-color 0.3s, border-color 0.3s;
-}
-
-.service-icon:hover {
-  background-color: #5c4888; /* Change background color on hover */
-  border-color: #5c4888; /* Change border color on hover */
-}
-
-.service-icon:hover i {
-  color: white; /* Change the color of the icon to white on hover */
-}
-
-.service-icon:hover {
-  background-color: #5c4888;
-  border: 4px solid #5c4888;
-  transition: 1s;
-}
-
-.service-icon:hover i {
-  color: #ffffff;
-}
-/* #services-block i:hover {
-  color: rgb(255, 255, 255);
-} */
-
-.service-text {
-  flex: 1 1 auto; /* Allow text to grow to fill remaining space */
-  text-align: left; /* Align text to the left */
-}
-
-.service-icon i {
-  margin: 0;
-  padding: 0;
-}
-
-.divider {
-  width: 1px;
-  background-color: #dedede;
-  margin: 0 10px;
-}
-
-.float-left {
-  float: left;
-  margin-right: 5px; /* Adjust as needed */
-}
-
-.content-wrapper {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  max-width: 1024px; /* Limiting the width */
-}
-
-.right-column,
-.left-column {
-  flex-basis: 48%; /* Adjust the width of the columns */
-}
-
-.right-column {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  /* text-align: center;  */
-}
-
-#beerAd {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px; /* Adjust as needed */
-}
-
-#beerAd img {
-  max-width: 100%; /* Ensure the image does not exceed the container width */
-}
-
-.left-column p,
-.right-column p {
-  width: 100%;
-  text-align: justify;
-}
-
-article {
-  margin-bottom: 20px; /* Adjust spacing between articles */
-}
-
-aside {
-  margin-top: 20px; /* Adjust spacing between articles and aside */
-}
-
 .title {
   position: absolute;
   top: 50%;
@@ -200,7 +67,7 @@ aside {
   z-index: 1;
 }
 
-#headerimg {
+#headering {
   /* display: block;  */
   width: 100%;
   height: 500px;
@@ -233,12 +100,165 @@ li {
   display: inline-block;
 }
 
-/* ALICIA'S CSS */
+/* END MAIN NAVIGATION */
+
+/* START WHO WE ARE SECTION*/
+
+#who-we-are {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#subtitle-who-we-are {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+article {
+  margin-bottom: 20px; /* Adjust spacing between articles */
+}
+
+aside {
+  margin-top: 20px; /* Adjust spacing between articles and aside */
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 1024px; /* Limiting the width */
+}
+
+.left-column p,
+.right-column p {
+  width: 100%;
+  text-align: justify;
+}
+
+.right-column,
+.left-column {
+  flex-basis: 48%; /* Adjust the width of the columns */
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* text-align: center;  */
+}
+
+.float-left {
+  float: left;
+  margin-right: 5px; /* Adjust as needed */
+}
+
+.divider {
+  width: 1px;
+  background-color: #dedede;
+  margin: 0 10px;
+}
+
+#beerAd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+#beerAd img {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+}
+
+/* END WHO WE ARE SECTION*/
+
+/* START SERVICE SECTION*/
+
+#services-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#services-block article {
+  width: 30%; /* Adjust width to fit three articles in a row */
+  margin-bottom: 60px;
+  text-align: justify;
+  display: flex;
+}
+
+#services-block i {
+  color: rgb(92, 72, 136);
+  transition: color 0.3s;
+}
+
+#services-block h3 {
+  margin: 0px 0px 20px 0px;
+}
+
+.service-text {
+  flex: 1 1 auto; /* Allow text to grow to fill remaining space */
+  text-align: left; /* Align text to the left */
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid #d3d3d3;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.service-icon:hover {
+  background-color: #5c4888; /* Change background color on hover */
+  border-color: #5c4888; /* Change border color on hover */
+}
+
+.service-icon i {
+  margin: 0;
+  padding: 0;
+}
+
+.service-icon:hover i {
+  color: white; /* Change the color of the icon to white on hover */
+}
+
+.service-icon:hover {
+  background-color: #5c4888;
+  border: 4px solid #5c4888;
+  transition: 1s;
+}
+
+.service-icon:hover i {
+  color:  #ffffff;
+}
+
+#services-block .service-icon:hover i {
+  color: white; /* Blanco */
+}
+
+/* END SERVICE SECTION*/
+
+/* START PORTFOLIO SECTION*/
+
 #portfolio {
   background-color: #f2f2f2;
   text-align: center;
   padding-top: 0.3%;
   padding-bottom: 2.9%;
+}
+
+.success-projects {
+  color: grey;
+  padding-bottom: 50px;
 }
 
 .portfolio-img {
@@ -266,6 +286,10 @@ li {
   /* falta que al deshacer el giro, lo haga en forma circular */
 }
 
+/* END PORTFOLIO SECTION*/
+
+/* START LOCATION SECTION */
+
 #location {
   text-align: center;
   align-items: center;
@@ -274,6 +298,7 @@ li {
 
 .youcanfindus {
   color: grey;
+  padding-bottom: 50px;
 }
 
 .mapa {
@@ -297,6 +322,7 @@ li {
 
 .tituloaddress {
   font-style: normal;
+  font-weight: bold;
 }
 
 #tituloemailus {
@@ -304,8 +330,11 @@ li {
   color: white;
 }
 
+/* END LOCATION SECTION */
+
 /* START FORM */
-#emailus {
+
+#email-us {
   background-image: url(../img/map-image.png);
   background-size: cover;
   background-position: center;
