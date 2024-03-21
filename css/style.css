@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mada&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 /* Reset CSS */
+
 * {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -8,7 +10,8 @@
 }
 
 body {
-  width: 1024px;
+  max-width: 1024px;
+  width: 100%; 
   margin: 0 auto;
   color: rgb(120, 120, 120);
 }
@@ -301,14 +304,15 @@ li {
   color: white;
 }
 
+/* START FORM */
 #emailus {
   background-image: url(../img/map-image.png);
   background-size: cover;
   background-position: center;
   background-color: rgba(64, 0, 128, 0.6);
-  height: 500px;
-  padding-top: 0.5%;
-  margin-bottom: 0;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
@@ -318,7 +322,7 @@ li {
   justify-content: center;
 }
 
-.form {
+.contact-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -326,12 +330,15 @@ li {
   margin-left: auto;
   margin-right: auto;
   font-size: large;
+  width: 50%;
 }
 
 .divformcontainer {
   display: flex;
-  align-items: center; /* AÃ±adido para alinear verticalmente los elementos */
-  margin-bottom: 5px;
+  justify-content: space-between;
+  align-items: flex-start; 
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .divformcontainer label {
@@ -339,29 +346,31 @@ li {
   margin-right: 17px;
 }
 
-.divformcontainer input {
+.divformcontainer input,
+.divformcontainer textarea  {
+  flex: 1;
   margin: 2px;
-  width: 100%;
   border-radius: 5px;
   border: none;
   height: 30px;
+  width: 90%;
 }
 
-.divformcontainer textarea {
-  width: 100%;
-  border-radius: 5px;
+.divformcontainer textarea  {
+  height: 150px;
+  resize: vertical;
 }
 
 .sendbtn {
-  padding: 3px 40px;
+  padding: 8px 40px;
   border: none;
   border-radius: 3px;
-  font-size: 10px;
-  margin-top: 15px;
-  margin-left: 10px;
+  font-size: 14px;
   width: fit-content;
   align-self: center;
 }
+
+/* END FORM */
 
 #footer {
   background-color: rebeccapurple;
