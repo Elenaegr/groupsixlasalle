@@ -372,6 +372,8 @@ li {
 
 /* END FORM */
 
+/* START FOOTER */
+
 #footer {
   background-color: rebeccapurple;
   text-align: right;
@@ -379,3 +381,9 @@ li {
   padding: 4px;
   color: #f2f2f2;
 }
+
+#footer a {
+  color: white; /* Cambiar el color de los enlaces a blanco */
+}
+
+/* END FOOTER */
