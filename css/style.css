@@ -11,7 +11,7 @@
 
 body {
   max-width: 1024px;
-  width: 100%; 
+  width: 100%;
   margin: 0 auto;
   color: rgb(120, 120, 120);
 }
@@ -32,7 +32,7 @@ h3 {
   color: rgb(72, 72, 72);
   font-weight: 500;
   font-size: x-large;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 main {
@@ -238,7 +238,7 @@ aside {
 }
 
 .service-icon:hover i {
-  color:  #ffffff;
+  color: #ffffff;
 }
 
 #services-block .service-icon:hover i {
@@ -365,7 +365,7 @@ aside {
 .divformcontainer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; 
+  align-items: flex-start;
   margin-bottom: 10px;
   width: 100%;
 }
@@ -376,7 +376,7 @@ aside {
 }
 
 .divformcontainer input,
-.divformcontainer textarea  {
+.divformcontainer textarea {
   flex: 1;
   margin: 2px;
   border-radius: 5px;
@@ -385,7 +385,7 @@ aside {
   width: 90%;
 }
 
-.divformcontainer textarea  {
+.divformcontainer textarea {
   height: 150px;
   resize: vertical;
 }
