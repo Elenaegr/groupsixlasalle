@@ -225,6 +225,7 @@ aside {
 .service-icon i {
   margin: 0;
   padding: 0;
+  color: #5c4888;
 }
 
 .service-icon:hover i {
