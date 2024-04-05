@@ -32,7 +32,7 @@ h3 {
   color: rgb(72, 72, 72);
   font-weight: 500;
   font-size: x-large;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 main {
@@ -196,7 +196,7 @@ aside {
 }
 
 #services-block h3 {
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 .service-text {
