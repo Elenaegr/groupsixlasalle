@@ -11,7 +11,7 @@
 
 body {
   max-width: 1024px;
-  width: 100%; 
+  width: 100%;
   margin: 0 auto;
   color: rgb(120, 120, 120);
 }
@@ -215,6 +215,7 @@ aside {
   flex: 0 0 auto;
   margin-right: 10px;
   transition: background-color 0.3s, border-color 0.3s;
+  align-self: flex-start;
 }
 
 .service-icon:hover {
@@ -238,11 +239,20 @@ aside {
 }
 
 .service-icon:hover i {
-  color:  #ffffff;
+  color: #ffffff;
 }
 
 #services-block .service-icon:hover i {
   color: white; /* Blanco */
+}
+
+.service-item {
+  display: flex;
+  align-items: flex-start; /* Align items vertically */
+}
+
+.service-content {
+  flex: 1; /* Allow the content to take up remaining space */
 }
 
 /* END SERVICE SECTION*/
@@ -365,7 +375,7 @@ aside {
 .divformcontainer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; 
+  align-items: flex-start;
   margin-bottom: 10px;
   width: 100%;
 }
@@ -376,7 +386,7 @@ aside {
 }
 
 .divformcontainer input,
-.divformcontainer textarea  {
+.divformcontainer textarea {
   flex: 1;
   margin: 2px;
   border-radius: 5px;
@@ -385,7 +395,7 @@ aside {
   width: 90%;
 }
 
-.divformcontainer textarea  {
+.divformcontainer textarea {
   height: 150px;
   resize: vertical;
 }
