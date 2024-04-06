@@ -131,8 +131,13 @@ aside {
   max-width: 1024px; /* Limiting the width */
 }
 
-.left-column p,
+/* .left-column p,
 .right-column p {
+  width: 100%;
+  text-align: justify;
+} */
+
+#who-we-are p {
   width: 100%;
   text-align: justify;
 }
