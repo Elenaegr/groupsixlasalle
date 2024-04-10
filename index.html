@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -20,12 +20,12 @@
             <!-- This one hides on medium and smaller screens -->
             <div class="image-container d-none d-lg-block">
                 <h1 class="title">My Business Webpage</h1>
-                <img src="../img/header.jpg" id="headering" alt="Header image">
+                <img src="../img/header.jpg" class="headering" alt="Header image">
             </div>
             <!-- This one appears on medium and smaller screens -->
             <div class="image-container d-lg-none">
                 <h1 class="title">My Business Webpage</h1>
-                <img src="../img/header-mini.png" id="headering" alt="Header image">
+                <img src="../img/header-mini.png" class="headering" alt="Header image">
             </div>
             <nav class="navbar navbar-expand-sm">
                 <div class="container-fluid">
@@ -242,23 +242,23 @@
             <p class="success-projects">There are success projects created by us</p>
             <div class="row justify-content-center">
                 <img src="../img/2.jpg" alt="A robot walking alone"
-                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img2" />
+                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img2">
                 <img src="../img/3.jpg" alt="A mug of coffee"
-                    class="mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img3" />
+                    class="mb-3 col-xs-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img3">
                 <img src="../img/4.jpg" alt="Lights" class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img"
-                    id="img4" /><br />
+                    id="img4"><br>
                 <img src="../img/5.jpg" alt="Reading in the toilet"
-                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img5" />
+                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img5">
                 <img src="../img/6.jpg" alt="Sitting down" class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img"
-                    id="img6" />
+                    id="img6">
                 <img src="../img/7.jpg" alt="Eating nuts" class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img"
-                    id="img7" /><br />
+                    id="img7"><br>
                 <img src="../img/8.jpg" alt="Going to sleep"
-                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img8" />
+                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img8">
                 <img src="../img/9.jpg" alt="Eating cookies"
-                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img9" />
+                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img9">
                 <img src="../img/10.jpg" alt="Cleaning the house"
-                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img10" />
+                    class="mb-3 col-12 col-sm-12 col-md-6 col-lg-4 portfolio-img" id="img10">
             </div>
         </section>
 
@@ -269,47 +269,48 @@
             <address class="row justify-content-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.411446917107!2d2.168598888806052!3d41.38687019282498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f1602b4819%3A0x1eecc2af1c60d64b!2sPla%C3%A7a%20de%20Catalunya!5e0!3m2!1ses!2ses!4v1710616321490!5m2!1ses!2ses"
-                    width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" class="mb-5 me-5 col-12 col-lg-6 mapa">
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="mb-5 me-5 col-12 col-lg-6 mapa"
+                    title="Maps with the company's address">
                 </iframe>
 
                 <!-- This one hides on medium and smaller screens -->
                 <div class="mb-3 ms-5 col-12 col-lg-6 text-left d-none d-lg-block">
-                    <h4 class="tituloaddress">Head Office</h4>
+                    <span class="tituloaddress">Head Office</span>
                     <p>
-                        <i>12356 Blank Street</i><br />
-                        Phone: <a href="tel:932902474">932 90 24 74</a><br />
-                        Email Address:<br /><a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
+                        <i>12356 Blank Street</i><br>
+                        Phone: <a href="tel:932902474">9322&nbsp;902&nbsp;242&nbsp;74</a><br>
+                        Email Address:<br><a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
                     </p>
-                    <br />
-                    <br />
-                    <h4 class="tituloaddress">Emea</h4>
+                    <br>
+                    <br>
+                    <span class="tituloaddress">Emea</span>
                     <p>
-                        <i>Carrer de Sant Joan de la<br />
-                            Salle, 42</i><br />
-                        <i>08022 Barcelona</i><br />
-                        Phone: <a href="tel:932902474">932 90 24 74</a><br />
-                        Email Address:<br />
+                        <i>Carrer de Sant Joan de la<br>
+                            Salle, 42</i><br>
+                        <i>08022 Barcelona</i><br>
+                        Phone: <a href="tel:932902474">932&nbsp;90&nbsp;24&nbsp;74</a><br>
+                        Email Address:<br>
                         <a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
                     </p>
                 </div>
                 <!-- This one appears on medium and smaller screens -->
                 <div class="mb-3 col-12 col-lg-6 text-center d-lg-none">
-                    <h4 class="tituloaddress">Head Office</h4>
+                    <span class="tituloaddress">Head Office</span>
                     <p>
-                        <i>12356 Blank Street</i><br />
-                        Phone: <a href="tel:932902474">932 90 24 74</a><br />
-                        Email Address:<br /><a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
+                        <i>12356 Blank Street</i><br>
+                        Phone: <a href="tel:932902474">932&nbsp;90&nbsp;24&nbsp;74</a><br>
+                        Email Address:<br><a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
                     </p>
-                    <br />
-                    <br />
-                    <h4 class="tituloaddress">Emea</h4>
+                    <br>
+                    <br>
+                    <span class="tituloaddress">Emea</span>
                     <p>
-                        <i>Carrer de Sant Joan de la<br />
-                            Salle, 42</i><br />
-                        <i>08022 Barcelona</i><br />
-                        Phone: <a href="tel:932902474">932 90 24 74</a><br />
-                        Email Address:<br />
+                        <i>Carrer de Sant Joan de la<br>
+                            Salle, 42</i><br>
+                        <i>08022 Barcelona</i><br>
+                        Phone: <a href="tel:932902474">9322&nbsp;902&nbsp;242&nbsp;74</a><br>
+                        Email Address:<br>
                         <a href="mailto:info@salleurl.edu">info@salleurl.edu</a>
                     </p>
                 </div>
@@ -322,39 +323,41 @@
                 <h2 id="tituloemailus">Email Us </h2>
                 <div class="row mb-3">
                     <div class="row mb-3">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Name:* </label>
+                        <label for="name" class="col-sm-2 col-form-label">Name:* </label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="colFormLabel" />
+                            <input type="text" name="name" id="name" class="form-control">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Mail:* </label>
+                        <label for="mail" class="col-sm-2 col-form-label">Mail:* </label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="colFormLabel" />
+                            <input type="email" name="mail" id="mail" class="form-control">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Phone:* </label>
+                        <label for="phone" class="col-sm-2 col-form-label">Phone:* </label>
                         <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="colFormLabel"
-                                pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" />
+                            <input type="tel" name="phone" id="phone" class="form-control"
+                                pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Subject:* </label>
+                        <label for="subject" class="col-sm-2 col-form-label">Subject:* </label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="colFormLabel" />
+                            <input type="text" name="subject" id="subject" class="form-control">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Message:* </label>
+                        <label for="message" class="col-sm-2 col-form-label">Message:* </label>
                         <div class="col-sm-10">
-                            <input type="message" class="form-control" id="colFormLabel" rows="4" cols="19" />
+                            <textarea name="message" id="message" class="form-control" rows="3"></textarea>
                         </div>
                     </div>
-                    <div class="col-12 text-center"> <!-- Single column spanning the entire row, centered content -->
+                    <div class="col-12 text-center">
                         <button type="submit" class="sendbtn">Send</button>
                     </div>
+                </div>
+            </form>
         </section>
         <!-- FOOTER -->
         <footer id="footer">
