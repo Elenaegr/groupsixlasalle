@@ -221,13 +221,13 @@ article {
   font-size: x-large;
 }
 
-#tituloemailus {
-  color: white;
-}
-
 /* END LOCATION SECTION */
 
 /* START FORM */
+
+#tituloemailus {
+  color: white;
+}
 
 #email-us {
   background-image: url(../img/map-image.png);
