@@ -123,6 +123,9 @@ article {
 /* END WHO WE ARE SECTION*/
 
 /* START SERVICE SECTION*/
+#services p {
+  text-align: justify;
+}
 
 .service-icon {
   display: flex;
